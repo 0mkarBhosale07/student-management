@@ -1,17 +1,11 @@
 "use client";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Button } from "@/components/ui/button";
-import {
-  Card,
-  CardContent,
-  CardDescription,
-  CardHeader,
-  CardTitle,
-} from "@/components/ui/card";
+
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
-import { Bell, Home, Menu, Search, Settings, Users } from "lucide-react";
+import { Bell, Home, Menu } from "lucide-react";
 import Link from "next/link";
 
 const UserProfile = () => {
@@ -88,7 +82,7 @@ const UserProfile = () => {
                 </div>
                 <div className="space-y-2 my-4">
                   <Label htmlFor="text" className="font-bold text-base">
-                    Mother's Name -
+                    Mother Name -
                   </Label>
                   <Input
                     id="text"

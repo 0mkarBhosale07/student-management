@@ -9,6 +9,7 @@ import {
 import { Label } from "@/components/ui/label";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
+import Link from "next/link";
 
 export default function LoginPage() {
   return (
@@ -31,17 +32,20 @@ export default function LoginPage() {
                 <Input
                   id="email"
                   type="email"
+                  value="jadhavprajakta252004@gmail.com"
                   placeholder="m@example.com"
                   required
                 />
               </div>
               <div className="space-y-2">
                 <Label htmlFor="password">Password</Label>
-                <Input id="password" type="password" required />
+                <Input id="password" type="password" value="000000" required />
               </div>
-              <Button type="submit" className="w-full">
-                Login
-              </Button>
+              <Link href="/dashboard">
+                <Button type="submit" className="w-full">
+                  Login
+                </Button>
+              </Link>
             </div>
           </CardContent>
         </Card>

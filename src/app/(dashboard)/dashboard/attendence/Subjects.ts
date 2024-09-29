@@ -1,0 +1,51 @@
+export const allSubjects = [
+  {
+    id: 1,
+    name: "Business Comuunication - 1",
+    code: "231",
+    path: "/dashboard/attendence/bussiness-communication-1",
+    attendence: "82%",
+  },
+  {
+    id: 2,
+    name: "Corporate Accounting - 1",
+    code: "232",
+    path: "/dashboard/attendence/corporate-accounting-1",
+    attendence: "92%",
+  },
+  {
+    id: 3,
+    name: "Business Economics - 1",
+    code: "233",
+    path: "/dashboard/attendence/bussiness-economics-1",
+    attendence: "90%",
+  },
+  {
+    id: 4,
+    name: "Business Management - 1",
+    code: "234",
+    path: "/dashboard/attendence/bussiness-management-1",
+    attendence: "85%",
+  },
+  {
+    id: 5,
+    name: "Elements Of Company Law - 1",
+    code: "235",
+    path: "/dashboard/attendence/elements-of-company-law-1",
+    attendence: "94%",
+  },
+  {
+    id: 6,
+    name: "Banking and Finance - 1",
+    code: "236",
+    path: "/dashboard/attendence/banking-finance-1",
+    attendence: "90%",
+  },
+  {
+    id: 7,
+    name: "Environmental Awareness",
+    code: "237",
+    path: "/dashboard/attendence/envireonmental-awareness",
+    attendence: "96%",
+  },
+];
